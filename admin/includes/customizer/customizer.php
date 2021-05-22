@@ -1,6 +1,7 @@
 <?php
+
 /**
- * wpstarter Theme Customizer
+ * Theme Customizer settings.
  *
  * @package wpstarter
  * @since 1.0.0
@@ -51,6 +52,7 @@ if ( ! function_exists( 'wpstarter_customize_partial_blogname' ) ) :
     }
 endif;
 
+
 /**
  * Render the site tagline for the selective refresh partial.
  *
@@ -61,6 +63,7 @@ if ( ! function_exists( 'wpstarter_customize_partial_blogdescription' ) ) :
     	bloginfo( 'description' );
     }
 endif;
+
 
 /**
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.

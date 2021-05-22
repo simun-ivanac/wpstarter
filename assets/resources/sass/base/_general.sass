@@ -1,0 +1,90 @@
+/*--------------------------------------------------------------
+ * [TABLE OF CONTENTS]
+ *
+ * #1 GENERAL
+ * #2 GLOBAL-CLASSES
+ *
+ *--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+ * ===============  #1 GENERAL>  ===============
+ *--------------------------------------------------------------*/
+
+html,
+body
+    min-height: 100vh
+    width: 100%
+
+body
+    background-color: $bg-color-base
+    color: $text-color-base
+    font-family: $font-family-base
+    font-size: $font-size-base
+    font-weight: $font-weight-base
+    line-height: 1.5
+
+body.home
+    background-color: $bg-color-light-strong
+
+body.is-locked
+    overflow: hidden
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section
+    display: block
+
+
+/*--------------------------------------------------------------
+ * ===============  <#1 GENERAL ===============
+ *--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+ * ===============  #2 GLOBAL-CLASSES>  ===============
+ *--------------------------------------------------------------*/
+
+.clearfix::after
+    clear: both
+    content: ""
+    display: table
+    font-size: 0
+    height: 0
+    visibility: hidden
+
+.hidden
+    display: none
+    left: -9999px
+    opacity: 0
+    position: absolute
+    top: -9999px
+    user-select: none
+    visibility: hidden
+
+.invisible
+    opacity: 0
+    visibility: hidden
+
+.screen-reader-text
+	border: 0
+	clip-path: inset(50%)
+	clip: rect(1px, 1px, 1px, 1px)
+	height: 1px
+	margin: -1px
+	overflow: hidden
+	padding: 0
+	position: absolute !important
+	width: 1px
+	word-wrap: normal !important
+
+/*--------------------------------------------------------------
+ * ===============  <#2 GLOBAL-CLASSES ===============
+ *--------------------------------------------------------------*/

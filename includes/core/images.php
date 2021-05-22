@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Images: add support for thumbnails, custom-background, custom-logo
  *
@@ -19,8 +18,13 @@ if ( ! function_exists( 'wpstarter_images' ) ) :
         // Set up custom background feature
 		add_theme_support( 'custom-background',
 			apply_filters( 'wpstarter_custom_background_args', array(
-				'default-color' => 'ffffff',
-				'default-image' => '',
+                'default-color'      => 'ffffff',
+				'default-image'      => '',
+                'default-repeat'     => 'no-repeat',
+                'default-position-x' => 'center',
+                'default-position-y' => 'center',
+                'default-size'       => 'cover',
+                'default-attachment' => 'fixed',
 			) )
 		);
 

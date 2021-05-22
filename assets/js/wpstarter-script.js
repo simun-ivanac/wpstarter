@@ -1,1 +1,1 @@
-"use strict";!function(n){n("body").on("click","a",function(t){var e=n(this).attr("href");"#"!=e&&""!=e&&e||t.preventDefault()})}(jQuery);
+"use strict";!function(n){})(jQuery);

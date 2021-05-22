@@ -1,0 +1,112 @@
+/*--------------------------------------------------------------
+ * [TABLE OF CONTENTS]
+ *
+ * #1 FORM-ELEMENTS
+ *    #1.1 Select
+ *    #1.2 Textarea
+ *    #1.3 Button
+ *    #1.4 Input
+ *
+ *--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+ * ===============  #1 FORM-ELEMENTS>  ===============
+ *--------------------------------------------------------------*/
+
+/*----------------------------------------------
+ * #1.1 Select
+ */
+select
+    background-color: transparent
+    border-radius: 3px
+    border: 1px solid $border-color-dark
+    color: $form-field-text
+    outline: none
+    padding: 8px 25px
+    vertical-align: middle
+
+
+/*----------------------------------------------
+ * #1.2 Textarea
+ */
+textarea
+    background-color: $form-field-bg
+    border-radius: 3px
+    border: 1px solid $border-color-dark
+    color: $form-field-text
+    min-height: 100px
+    outline: none
+    padding: 8px
+    resize: none
+    width: 100%
+
+
+/*----------------------------------------------
+ * #1.3 Button
+ */
+button,
+.button,
+[type="button"],
+[type="reset"],
+[type="submit"]
+    background-color: $button-primary-bg
+    border-radius: 3px
+    border: 1px solid transparent
+    color: $button-primary-text
+    cursor: pointer
+    display: inline-block
+    font-weight: 700
+    outline: none
+    padding: 8px 25px
+    text-align: center
+    text-transform: uppercase
+    transition: color .3s ease, background-color .3s ease, border-color .3s ease, box-shadow .3s ease
+    vertical-align: middle
+    &:hover
+        background-color: $button-primary-bg-hover
+
+.dark-button
+    background-color: $button-dark-bg
+    color: $button-dark-text
+
+.dark-button:hover
+    background-color: $button-dark-bg-hover
+
+.light-button
+    background-color: $button-light-bg
+    color: $button-light-text
+
+.light-button:hover
+    background-color: $button-light-bg-hover
+
+
+/*----------------------------------------------
+ * #1.4 Input
+ */
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"]
+    background-color: $form-field-bg
+    border-radius: 3px
+    border: 1px solid $border-color-dark
+    color: $form-field-text
+    outline: none
+    padding: 8px
+    vertical-align: middle
+
+/*--------------------------------------------------------------
+ * ===============  <#1 FORM-ELEMENTS ===============
+ *--------------------------------------------------------------*/

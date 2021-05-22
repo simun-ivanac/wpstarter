@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Theme base support
  *
@@ -37,7 +36,7 @@ if ( ! function_exists( 'wpstarter_setup' ) ) :
 
 		// Register navigation menus (output using wp_nav_menu())
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'wpstarter' ),
+			'primary-menu' => esc_html__( 'Primary', 'wpstarter' ),
 		) );
 
 		// Switch default core markup for search form, comment form, and comments to output valid HTML5
